@@ -1,23 +1,22 @@
-# GEPI - API
+<h1 align="center">GEPI - API</h1>
 
-## Requisitos de sistema:
+![Static Badge](https://img.shields.io/badge/Node.js-20.9.0-green?logo=node.js)
+![Static Badge](https://img.shields.io/badge/Sequelize-6.35.0-52B0E7?logo=sequelize)
+![Static Badge](https://img.shields.io/badge/Postgres-LTS-316192?logo=postgresql&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Postman-LTS-F76935?logo=postman)
 
-> node.js
+## Steps to execute:
 
-> postgres
+> clone o repositório: https://github.com/jacksonMarcelinoFreitas/gepi_api_rest
 
-## Passos para executar:
+~~~node
+  npm init
+  npx sequelize db:migrate
+  npm start
+~~~
 
-> clone o repositório: <seu repositório>
+## Steps to use:
 
-> npm init
+> open your rest request service: **insomnia**, **apidog**, **postman**, **swagger**
 
-> npx sequelize db:migrate
-
-> npm start
-
-## Passos para usar:
-
-> abra o seu serviço de requisição http: insomnia, apidog, postman, swagger
-
-> importe a collection "collection_requests.
+> imports a collection: "collection_requests.json"
